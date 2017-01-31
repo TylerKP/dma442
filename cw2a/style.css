@@ -60,3 +60,32 @@ nav {
     text-align: center;
     clear: both;
 }
+
+/*conservenature.org styles*/
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+img{
+    display: block;
+}
+
+@media screen and (max-width: 499px){
+    
+    img{
+        width:75%;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width:899px){
+    img{
+        width:85%;
+    }
+}
+
+@media screen and (min-width:900px){
+    width:90%;
+}
