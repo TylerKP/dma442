@@ -67,6 +67,10 @@ img{
     display: inline-block;
 }
 
+.standalone,#thumbHolder,#socialMedia {
+	margin-left:50px;
+}
+
 body{
     background: rgb(187, 211, 242);
     color: #fff;
