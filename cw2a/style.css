@@ -61,31 +61,47 @@ nav {
     clear: both;
 }
 
-/*conservenature.org styles*/
-
-*{
-    margin:0px;
-    padding:0px;
-}
+/*Conserve Nature Stuff*/
 
 img{
-    display: block;
+    display: inline-block;
 }
 
-@media screen and (max-width: 499px){
-    
+body{
+    background: rgb(187, 211, 242);
+    color: #fff;
+    align-content: center;
+    font:Helvetica;
+    font-size: 16px;
+    width:90%;
+    display: inline;
+}
+
+.thumb {
+	    width:45px;
+    }
+
+#socialMedia img{
+	width:128px;
+}
+
+@media screen and (max-width:499px){
     img{
         width:75%;
     }
-    
+
 }
 
-@media screen and (min-width: 500px) and (max-width:899px){
+@media screen and (min-width:500px) and (max-width: 999px){
     img{
         width:85%;
     }
+
 }
 
-@media screen and (min-width:900px){
-    width:90%;
+@media screen and (min-width:1000px){
+    img{
+        width:90%;
+    }
+
 }

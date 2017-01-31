@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color: #145198;
+
+body{
+    font-family: sans-serif;
+    background-color: lightgrey;
+    color:$color;
+}
+
+.wrapper {
+	width:1200px;
+    margin: 0 auto;
+    background:#fff;
+}
+
+.header{
+    height:120px;
+    border-bottom:1px solid #000;
+}
+
+nav .primary{
+    li{
+        list-style:none;
+        float:left;
+        a{
+            display: block;
+            text-decoration:none;
+        }
+    }
+}
