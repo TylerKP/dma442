@@ -1,0 +1,41 @@
+*{
+  margin:0px;
+  padding:0px;
+
+}
+
+body{
+  background:#fafafa;
+}
+
+li a{
+  text-decoration: none;
+  padding:.25rem;
+  background: grey;
+  color:white;
+  border-radius: 1rem;
+}
+
+li a:hover{
+  background: #e2e2e2;
+  color:black;
+}
+
+nav ul li {
+    margin: 1rem;
+    position: relative;
+}
+
+ul li{
+  display: inline-block;
+}
+
+.main,footer{
+  right:50%;
+  padding:.1rem;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+}
