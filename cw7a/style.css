@@ -1,0 +1,111 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'comic-sans-MS', sans-serif;
+    /*font-size: 1.25em;*/
+    /*courier, ariel, times, comic-sans-MS, tahoma, verdana, georgia, lucida, lucida grande, 'trebuceht ms'*/
+}
+
+body a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+body a:hover{
+    color: rgb(105, 5, 5);
+}
+
+h3,
+.accent {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    flex: 2;
+    color: rgba(232, 12, 100, 1);
+    background: rgba(198, 153, 189, .5);
+    padding: .25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.mainType {
+    padding-left: 2rem;
+    padding-top: 10rem;
+    line-height: 34px;
+    padding-right: 2em;
+}
+
+.accent {
+    padding-left: 1.5rem;
+    padding-top: 10rem;
+    padding-right: .5rem;
+    line-height: 34px;
+    padding-right: 2em;
+}
+
+h2,
+.mainType {
+    font-family: 'Sansita', sans-serif;
+    font-size: 1em;
+    flex: 2;
+    color: rgba(255, 12, 12, 1);
+    background: rgba(198, 153, 153, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+h2,
+h3 {
+    font-size: 5em;
+    padding-left: .25em;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+.firstLetter {
+    font-size: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.flexbox {
+    align-content: left;
+    display: flex;
+    margin-bottom: .5rem;
+}
+
+header,
+footer {
+    background: #ccc;
+}
+
+header,
+.content,
+footer {
+    padding: 1rem;
+}
+
+.content {
+    flex: 1;
+    /*background:#fff;*/
+    /*opacity:.5;*/
+    background: rgba(255, 255, 255, .5);
+}
+
+img.space {
+    width: 100px;
+    display: block;
+    /*vertical-align: middle;*/
+}

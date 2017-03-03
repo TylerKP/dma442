@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <script src="http://malsup.github.io/min/jquery.cycle2.caption2.min.js"></script>
+    <script src="http://malsup.github.io/min/jquery.cycle2.center.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Lathe Hobbiest</title>
+</head>
+<body>
+   <div id="wrapper">
+       <header>
+           <h1>Lathe Hobbiest</h1>
+       </header>
+       <nav>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="ornament.html">Ornament</a></li>
+               <li><a href="cheeseset.html">Cheese Server</a></li>
+               <li><a href="pizza.html">Pizza Slicer</a></li>
+               <li><a href="icecream.html">Ice Cream Scoop</a></li>
+               <li><a href="safety.html">Safety</a></li>
+           </ul>
+       </nav>
+       <div id="pageWrapper">
+       <div>The following slideshow has place holder pictures.</div>
+       <div id="projectPics">
+            <div class="cycle-slideshow"
+                data-cycle-fx="scrollHorz"
+                data-cycle-prev="#prev"
+                data-cycle-next="#next"
+                data-cycle-caption-plugin=caption2
+                data-cycle-overlay-fx-sel=">div"
+                data-cycle-center-horz=true
+                data-cycle-center-vert=true>
+                <div class="cycle-caption"></div>
+
+               <img src="images/penRe.jpg" alt="Pen"  data-cycle-title="Pen" data-cycle-desc="Step 2">
+               <img src="images/penRe.jpg" alt="Pen"  data-cycle-title="Pen" data-cycle-desc="Step 3">
+               <img src="images/penRe.jpg" alt="Pen"  data-cycle-title="Pen" data-cycle-desc="Step 4">
+               <img src="images/penRe.jpg" alt="Pen"  data-cycle-title="Pen" data-cycle-desc="Step 5">
+               <img src="images/penRe.jpg" alt="Pen"  data-cycle-title="Pen" data-cycle-desc="Step 6">
+               <img src="images/penRe.jpg" alt="Pen"  data-cycle-title="Pen" data-cycle-desc="Step 7">
+               <img src="images/penRe.jpg" alt="Pen"  data-cycle-title="Pen" data-cycle-desc="Step 8">
+               
+           </div>
+           <div class="center" id="prevNext">
+                <a href=# id="prev">&lt;&lt;Prev</a> 
+                <a href=# id="next">Next&gt;&gt;</a>
+            </div>
+       </div>
+       <iframe src="instructions/penInstructions.html"></iframe>
+       <div id="sampleProj" class="cycle-slideshow"
+         data-cycle-fx="scrollHorz"
+         data-cycle-speed="200"
+         data-cycle-slide="> div">
+           <div id="ornament" class="proj">
+             <a href="ornament.html">
+              <h2>Ornament</h2>
+                  <img src="images/ornamentReThumb.jpg" alt="Ornament">
+                   <div class="contentProj">
+                      An ornament for the Holidays.
+                  </div>
+               </a>
+           </div>
+           <div id="cheeseSet" class="proj">
+            <a href="cheeseset.html">
+                 <h2>Cheese Cutter</h2>
+                 <img src="images/cheeseSlicerThumb.jpg" alt="Cheese Slicer">
+                  <div class="contentProj">
+                      A gift for any occasion.
+                    </div>
+                </a>
+           </div>
+           <div id="pizza" class="proj">
+            <a href="pizza.html">
+                 <h2>Pizza Slicer</h2>
+                  <img src="images/pizzaReThumb.jpg" alt="Pizza Slicer">
+                   <div class="contentProj">
+                      Make a pizza slicer.
+                  </div>
+               </a>
+           </div>
+           <div id="icecream" class="proj">
+               <a href="icecream.html">
+                <h2>Ice Cream Scoop</h2>
+                 <img src="images/iceCreamThumb.jpg" alt="Ice Cream Scoop">
+                  <div class="contentProj">
+                      Make the perfect Scoop!
+                  </div>
+               </a>
+            </div>
+       </div><!--sampleProj-->
+   </div><!--wrapper-->
+   </div><!--pageWrapper-->
+   <footer>Tyler Kron-Piatek &copy;2016. All rights reserved.</footer>
+   <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+</body>
+</html>

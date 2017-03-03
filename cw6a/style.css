@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display:flex;
+	flex-direction: column;
+    background: url(image/nasa-43567.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height:100vh;
+
+}
+
+header, footer {
+	background:#ccc;
+}
+
+header, .content, footer {
+	padding:1rem;
+}
+
+.content {
+	flex:1;
+    /*background:#fff;*/
+    /*opacity:.5;*/
+    background:rgba(255,255,255,.5);
+}
+
+img.space{
+    width:100px;
+    display:block;
+    /*vertical-align: middle;*/
+}

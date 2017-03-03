@@ -10,8 +10,6 @@ body {
 
 .wrapper {
     width: 1200px;
-    margin: auto;
-    color:#fff;
 }
 
 header {
@@ -41,8 +39,7 @@ aside,
 }
 
 .main {
-    max-width: 800px;
-    /*background:#124268;*/
+    width: 800px;
 }
 
 aside {
@@ -57,83 +54,8 @@ ul.widget {
 
 footer,
 nav {
+    height: 64px;
     line-height: 64px;
     text-align: center;
     clear: both;
-}
-
-footer{
-    padding:1rem;
-}
-
-/*Conserve Nature Stuff*/
-
-.mainpage {
-	font-size: 20px;
-    font-family: sans-serif, Helvetica, Georgia;
-}
-
-img{
-    display: inline-block;
-}
-
-.standalone{
-	padding-top:10%;
-    padding-left:10%;
-}
-
-#thumbHolder,#socialMedia {
-	margin-left: 25%;
-}
-
-#banner{
-    margin-left: 5%;
-}
-
-body{
-    background: #BBd3f2;
-    color: #fff;
-    align-content: center;
-    font-family: sans-serif;
-    font-size: 16px;
-    width:90%;
-    display: inline;
-}
-
-.thumb {
-	    width:45px;
-    }
-
-#socialMedia img{
-	width:128px;
-}
-
-#rightCol,#leftCol {
-	background: #2f526d;
-    height: 100%;
-}
-
-@media screen and (max-width:800px){
-    img{
-        width:75%;
-    }
-
-}
-
-@media screen and (min-width:801px) and (max-width: 1200px){
-    img{
-        width:85%;
-    }
-
-}
-
-@media screen and (min-width:1201px){
-    img{
-        width:90%;
-    }
-
-}
-
-a{
-    color:#fff;
 }
