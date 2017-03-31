@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+
+/*#5492de --pastel dark blue
+#54ded5 --pastel light blue
+#54de60 --pastel green
+#cade54 --pastel yellow
+#de9754 --pastel orange*/
+
+body {
+    background: #CC6D14;
+}
+
+nav ul {
+    background: #54DE60;
+}
+
+ul li, .over {
+    display: inline-block;
+    padding: .5rem;
+    margin-bottom: .5rem;
+}
+
+nav {
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    text-align: right;
+}
+
+nav a, ul li {
+    text-decoration: none;
+    font-size: 1.25rem;
+    background: #5619FF;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: #ffffff;
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+}
+
+nav a:hover {
+    transition: .5s;
+    opacity: .7;
+    cursor: pointer;
+}
+
+nav {
+    justify-content: center;
+}
+
+#productSlide {
+    /*border: solid .25rem #000;*/
+    font-size: 1.5rem;
+    margin: .25rem;
+}
+
+#sampleProj {
+    font-size: 1.5rem;
+    text-align: center;
+    display: inline;
+    align-content: center;
+    justify-content: center;
+}
+
+#sampleProj a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 9%;
+}
+
+#sampleProj a:hover {
+    cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+    font-size: 5rem;
+    font-family: 'Droid Sans', sans-serif, Arial, Times New Roman;
+}
+
+.proj {
+    display: inline-block;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /*border: solid .5rem #000;*/
+    /*border-radius:.5rem;*/
+}
+
+.proj a {
+    text-decoration: none;
+}
+
+footer {
+    /*position:absolute;*/
+    bottom: 0;
+    width: 100%;
+    background: #cade54;
+    font-size: 1.25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.mainBanner {
+    display: inline-block;
+    text-align: center;
+    left: 10rem;
+    padding: 1rem;
+}
+
+#banner {
+    background: #5c5a5a;
+    width: 100%;
+}
+
+.mainProj {
+    font-size: 1.25rem;
+    padding-left: 1rem;
+}
+
+.mainProj ol {
+    padding-left: 2rem;
+}
+
+#productSlide img {
+    width: 1000px;
+}
+
+footer {
+    position: absolute;
+    bottom: -37em;
+}
+
+#projectPics {
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 5em;
+    float: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.howTo {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#pageWrapper {
+    height: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+a:hover {
+    color: purple;
+}
+
+#cheese {
+    bottom: -45em;
+}
+
+#safetyInstructions, #acrylicInstructions, #disclaimer {
+    width: 90%;
+    padding-left: 2em;
+    padding-bottom: .5em;
+    font-size: 25px;
+}
+
+#homeFooter {
+    bottom: -45em;
+}
+
+#safety {
+    bottom: -13em;
+}
+
+.about{
+    padding:1em;
+    font-size: 2rem;
+}
+
+#sampleProj .proj:hover {
+    transition: 0.5s;
+	opacity: .75;
+}
+
+@media and (min-width: 901px) and (max-width: 1199px){
+    footer{
+        bottom:-52px;
+    }
+    #homeFooter{
+        bottom:-52px;
+    }
+}
+
+@media and(max-width:900px){
+    footer{
+        bottom:-52px;
+    }
+    #homeFooter{
+        bottom:-52px;
+    }
+}
